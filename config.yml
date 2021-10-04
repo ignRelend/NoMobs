@@ -1,0 +1,20 @@
+#-----------------------#
+# NoMobs v2.0 by Relend #
+#-----------------------#
+
+# The plugin will have no effect on disabled worlds
+disabled-worlds:
+  - world_with_mobs
+
+# Whether to use disabled spawn reasons or just disable all except plugin & /summon spawns
+use-disabled-spawn-reasons: false
+
+# Disabled spawn reasons
+# You can view them all here https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/CreatureSpawnEvent.SpawnReason.html
+# Spawn reasons must be in ALL CAPS!
+disabled-spawn-reasons:
+  - COMMAND
+  - EGG
+
+# Whether to log mob removals to console (WILL spam console!)
+log-removals: false
